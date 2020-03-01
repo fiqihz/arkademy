@@ -73,7 +73,7 @@ button.btn {
 	font-size: 15px;
 }
 
-button.btn.normal {
+.readmore a {
 	position: absolute;
 	width: 156px;
 	height: 46px;
@@ -84,9 +84,12 @@ button.btn.normal {
 	border-radius: 6px;
 	background: none;
 	color: #FCB371;
+	text-align: center;
+	line-height: 46px;
+	text-decoration: none;
 }
 
-button.btn.outline {
+.reservation a {
 	position: absolute;
 	width: 156px;
 	height: 46px;
@@ -98,5 +101,8 @@ button.btn.outline {
 	background: #FCB371;
 	color: #FFFFFF;
 	border-color: orange;
+	text-align: center;
+	line-height: 46px;
+	text-decoration: none;
 }
 
