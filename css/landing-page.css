@@ -18,35 +18,51 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,.7);
+	background: rgba(42, 38, 61, 0.82);
 	
 }
 
 .logobali {
-	text-align: center;
-	padding-top: 40px;
+	position: absolute;
+	width: 165px;
+	height: 165px;
+	left: 564px;
+	top: 44px;;
 }
 
 .putih {
-	color: ivory;
+	position: absolute;
+	left: 476px;
+	right: 476px;
+	top: 223px;
+	bottom: 329px;
 	font-size: 48px;
+	line-height: 84px;
 	text-align: center;
-	padding-top: 20px;
+	color: #FFFFFF;
 }
 
 .orange {
 	color: orange;
 	font-size: 48px;
 	text-align: center;
-	padding-top: 30px;
+	position: absolute;
+	left: 476px;
+	right: 476px;
+	top: 323px;
+	bottom: 329px;
 }
 
 p {
-	color: white;
-	text-align: center;
+	position: absolute;
+	width: 117px;
+	height: 16px;
+	left: 582px;
+	top: 405px;
 	font-family: 'roboto';
-	font-size: 13px;
-	padding-top: 25px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
 }
 
 button.btn {
@@ -59,19 +75,28 @@ button.btn {
 
 button.btn.normal {
 	position: absolute;
-	top: 440px;
-	left: 490px;
+	width: 156px;
+	height: 46px;
+	left: 477px;
+	top: 481px;
+	border: 2px solid #FCB371;
+	box-sizing: border-box;
+	border-radius: 6px;
 	background: none;
-	color: orange;
-	border-color: orange;
+	color: #FCB371;
 }
 
 button.btn.outline {
 	position: absolute;
-	top: 440px;
-	left: 650px;
-	background-color: orange;
-	color: white;
+	width: 156px;
+	height: 46px;
+	left: 646px;
+	top: 481px;
+	border: 2px solid #FCB371;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background: #FCB371;
+	color: #FFFFFF;
 	border-color: orange;
 }
 
